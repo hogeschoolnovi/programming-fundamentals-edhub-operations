@@ -121,6 +121,8 @@ print(mijn_variabele * 3)  # Het resultaat is: 555
 # Welke van de gegeven print() statements zullen een foutmelding veroorzaken? Bedenkt het antwoord vooraf en check het door de code uit te voeren.
 # ==========================================
 
+# Haal de # weg voor de print statements om de code te testen
+
 # print(int('1490.99'))
 # Foutmelding (alleen als in de string een heel getal staat kan deze worden omgezet naar int)
 

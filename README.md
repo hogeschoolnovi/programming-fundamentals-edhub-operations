@@ -1,6 +1,11 @@
 # Opdrachtbeschrijving
 
-In deze repository vind je een aantal opdrachten die je kunt maken om te oefenen met lists en tuples in Python.
+In deze repository vind je een aantal opdrachten die je kunt maken om te oefenen met operators en evaluaties in Python.
+De volgorde in oplopende moeilijkheidsgraad is: 
+- calculations
+- operators
+- string-operations
+- booleans
 Deze repository bestaat uit meerdere opdrachten van oplopende moeilijkheidsgraad.
 
 
