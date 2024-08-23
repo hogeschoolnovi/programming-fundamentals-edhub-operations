@@ -15,7 +15,6 @@ print(not True)     # Het resultaat is: False
 # Verwachte uitkomst is de boolean waarde: True
 # ==========================================
 
-print(5 > 3 and 5 < 10)     # Het resultaat is: True
 
 
 # ==========================================
@@ -26,7 +25,6 @@ print(5 > 3 and 5 < 10)     # Het resultaat is: True
 # Verwachte uitkomst: True
 # ==========================================
 
-print(7 > 5 and 7 < 12 and not (7 == 10))     # Het resultaat is: True
 
 
 # ==========================================
@@ -41,8 +39,7 @@ print(7 > 5 and 7 < 12 and not (7 == 10))     # Het resultaat is: True
 x = 5
 y = -4
 
-print(x > 0 and x < 10)     # Het resultaat is: True
-print(y > 0 and y < 10)     # Het resultaat is: False
+
 
 
 # ==========================================
@@ -56,24 +53,6 @@ print(y > 0 and y < 10)     # Het resultaat is: False
 # E. print(not True or False or not True)
 # ==========================================
 
-# A.
-print(True or 1 / 0)     # Het resultaat is: False
-# Het resultaat is True. De 'or' operator kijkt of er minimaal een True waarde in de expressie voorkomt. Zodra er een True waarde is, is het resultaat True en wordt de rest van de expressie niet geëvalueerd. Als dat wel zo was zou de expressie een ZeroDivisionError geven op 1 / 0
-
-# B.
-print(False or True)     # Het resultaat is: True
-# Als er een True waarde voorkomt in een 'or' evaluatie is het resultaat True.
-
-# C.
-print(False and True and True)     # Het resultaat is: False
-# Een 'and' operator evalueert alleen naar True als beide zijden True zijn.
-
-# D.
-print(True or False or False)     # Het resultaat is: True
-# Zodra er in een 'or' evaluatie een True waarde voorkomt is het resultaat True.
-
-print(not True or False or not True)     # Het resultaat is: False
-# Door de 'not' operator evalueert de True naar een False. Omdat er geen enkele True waarde in de expressie voorkomt is het resultaat False.
 
 
 # ==========================================
@@ -84,9 +63,6 @@ print(not True or False or not True)     # Het resultaat is: False
 # Tip: Als het nummer gedeeld door 2 geen restwaarde heeft, dan is het even. Anders is het oneven.
 # ==========================================
 
-nummer = 42
-even_of_oneven = "Even" if nummer % 2 == 0 else "Oneven"
-print(even_of_oneven)     # Het resultaat is: Even
 
 
 # ==========================================
@@ -102,9 +78,6 @@ print(even_of_oneven)     # Het resultaat is: Even
 # ==========================================
 
 uur = 9
-begroeting = "Goedemorgen" if uur < 12 else "Goedemiddag" if uur < 18 else "Goedenavond"
-
-print(begroeting)     # Het resultaat is: Goedemorgen
 
 
 # =========================================
@@ -116,7 +89,4 @@ print(begroeting)     # Het resultaat is: Goedemorgen
 # Verwachte uitkomst bij invoer van getallen 2 en 3:  De som van 2 en 3 is : 5
 # ==========================================
 
-getal_een = float(input('Voer eerste getal in :'))
-getal_twee = float(input('Voer tweede getal in :'))
 
-print('De som van', getal_een, 'en', getal_twee, 'is :', getal_een + getal_twee)

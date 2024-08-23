@@ -20,11 +20,6 @@ print(woord * aantal_keer)  # Het resultaat is: Python Python Python
 # Verwachte uitkomst: Bello is 4 jaar. Dit is 28 jaar in mensenjaren.
 # ==========================================
 
-bello_hondenjaren = 4
-naar_mensen_jaren = 7
-bello_mensenjaren = bello_hondenjaren * naar_mensen_jaren
-
-print('Bello is ', bello_hondenjaren, 'jaar. Dit is', bello_mensenjaren, 'jaar in mensenjaren')  # Het resultaat is: Bello is  4 jaar. Dit is 28 jaar in mensenjaren
 
 
 # ==========================================
@@ -36,10 +31,6 @@ print('Bello is ', bello_hondenjaren, 'jaar. Dit is', bello_mensenjaren, 'jaar i
 variabele_een = '5'
 variabele_twee = 1 / 1
 variabele_drie = 'Python' * 3
-
-print(type(variabele_een))      # Het resultaat is: <class 'str'>
-print(type(variabele_twee))     # Het resultaat is: <class 'float'>
-print(type(variabele_drie))     # Het resultaat is: <class 'str'>
 
 
 
@@ -55,22 +46,6 @@ print(type(variabele_drie))     # Het resultaat is: <class 'str'>
 # ==========================================
 
 
-# And = 'something'
-# Valide syntax. 'and' met een kleine letter is wel een keyword (vergelijkingsoperator), maar 'And' met een hoofdletter niet
-
-# while = 'something'
-# Foutmelding. Dit keyword is gereserveerd voor de while loop
-
-# Break = 'something'
-# Valide syntax: 'break' met een kleine letter is een keyword om uit een loop te komen, maar 'Break' met een hoofdletter niet
-
-# none = 'something'
-# Valide syntax: 'None' met een hoofdletter is een keyword (geeft een lege waarde aan), maar 'none' met een kleine letter niet
-
-
-# LET OP: Hoewel bovenstaande valide namen technisch gezien kunnen worden gebruikt, is het niet aan te raden om dit te doen. Het kan verwarrend zijn voor andere programmeurs die je code lezen.
-
-
 
 # ==========================================
 # Opgave 4:
@@ -83,12 +58,6 @@ print(type(variabele_drie))     # Het resultaat is: <class 'str'>
 # Denk ook aan de schrijf conventies voor variabele namen.
 # ==========================================
 
-# A. totaal_aantal_bananen
-# B. min_lengte_voor_attractie
-# C. grootste_getal_uit_rij
-
-
-# LET OP: Wees specifiek en beschrijvend in je variabele namen. De benaming mag best wat langer zijn als dit de duidelijkheid van je code ten goede komt.
 
 
 # ==========================================
@@ -97,9 +66,6 @@ print(type(variabele_drie))     # Het resultaat is: <class 'str'>
 # Maak van het getal 3.14 een 3. Je mag alleen de typecast functie gebruiken
 # ==========================================
 
-getal = 3.14
-
-print(int(getal))  # Het resultaat is: 3
 
 
 # ==========================================
@@ -112,8 +78,7 @@ print(int(getal))  # Het resultaat is: 3
 # ==========================================
 
 mijn_variabele = 5
-# Door te typecasten naar een string wordt er twee keer een vijf achter elkaar geprint in plaats van dat er twee getallen worden vermenigvuldigd
-mijn_variabele = str(mijn_variabele)
+
 
 print(mijn_variabele * 3)  # Het resultaat is: 555
 
@@ -127,13 +92,9 @@ print(mijn_variabele * 3)  # Het resultaat is: 555
 # Haal de # weg voor de print statements om de code te testen
 
 # print(int('1490.99'))
-# Foutmelding (alleen als in de string een heel getal staat kan deze worden omgezet naar int)
 
 # print(float(12))
-# Geen foutmelding (Python zet de waarde om in een float 12.0)
 
 # print(int('1plus1'))
-# Foutmelding (de string bevat een woord. Dat kan niet worden omgezet naar een getal)
 
 # print(str(25E10))
-# Geen foutmelding (25E10 betreft wetenschappelijke notatie. Dit wordt een 25 met 10 nullen en kan als zodanig in een string worden omgezet). Wat opvalt is dat Python eerst de wetenschappelijke notatie omzet naar een float en vervolgens naar een string. Het resultaat is dus '250000000000.0' in plaats van '25E10'.
