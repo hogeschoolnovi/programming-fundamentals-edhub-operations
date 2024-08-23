@@ -6,6 +6,7 @@ De volgorde in oplopende moeilijkheidsgraad is:
 - operators
 - string-operations
 - booleans
+
 Deze repository bestaat uit meerdere opdrachten van oplopende moeilijkheidsgraad.
 
 
