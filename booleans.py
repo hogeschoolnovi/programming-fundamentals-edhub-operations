@@ -6,6 +6,8 @@
 print(not True)     # Het resultaat is: False
 
 
+
+
 # ==========================================
 # Opgave 1.
 # Gebruik logische operatoren om te controleren of het getal 5 zowel groter is dan 3 als kleiner dan 10.
