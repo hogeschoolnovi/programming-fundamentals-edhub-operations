@@ -7,6 +7,7 @@ naam = input('Voer je naam in: ')  # voorbeeld invoer: Bart
 print('Je naam is: ', naam)  # Het resultaat is: Je naam is: Bart
 
 
+
 # ==========================================
 # Opgave 1:
 # Gegeven is het woord 'Python'. Schrijf een programma dat de gebruiker vraagt om input. Als de gebruiker het woord 'Python' invoert, print dan de boolean True, anders print False.
@@ -17,8 +18,6 @@ woord = 'Python'
 invoer = input('Voer een woord in: ')  # voorbeeld invoer: Python
 
 print(invoer == woord)  # Het resultaat is: True (elke andere invoer geeft False)
-
-
 
 
 
